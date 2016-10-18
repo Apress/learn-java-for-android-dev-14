@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Circle</string>
+   <string name="area">Area:</string>
+   <string name="area_undefined">Area: undefined</string>
+   <string name="circumference">Circumference:</string>
+   <string name="circumference_undefined">Circumference: undefined</string>
+   <string name="radius">Radius</string>
+   <string name="type_a_number">type a number</string>
+</resources>

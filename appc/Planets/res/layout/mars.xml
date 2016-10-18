@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:gravity="center_horizontal|center_vertical"
+              android:layout_height="fill_parent"
+              android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:padding="5dip">
+   <TextView android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:text="@string/mars"
+             android:textColor="#ffffff"
+             android:textSize="25sp"
+             android:textStyle="bold"/>
+   <ImageView android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:src="@drawable/mars"/>
+   <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:gravity="center_horizontal"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content">
+      <TableRow>
+         <TextView android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:padding="3dip"
+                   android:text="@string/diameter"
+                   android:textColor="#ffffff"
+                   android:textStyle="bold"/>
+         <TextView android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:padding="3dip"
+                   android:text="@string/mars_diameter"
+                   android:textColor="#ffffff"/>
+      </TableRow>       
+      <TableRow>
+         <TextView android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:padding="3dip"
+                   android:text="@string/mass"
+                   android:textColor="#ffffff"
+                   android:textStyle="bold"/>
+         <TextView android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:padding="3dip"
+                   android:text="@string/mars_mass"
+                   android:textColor="#ffffff"/>
+      </TableRow>       
+      <TableRow>
+         <TextView android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:padding="3dip"
+                   android:text="@string/orbit"
+                   android:textColor="#ffffff"
+                   android:textStyle="bold"/>
+         <TextView android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:padding="3dip"
+                   android:text="@string/mars_orbit"
+                   android:textColor="#ffffff"/>
+      </TableRow>       
+      <TableRow>
+         <TextView android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:padding="3dip"
+                   android:text="@string/trivia"
+                   android:textColor="#ffffff"
+                   android:textStyle="bold"/>
+         <TextView android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:padding="3dip"
+                   android:text="@string/mars_trivia"
+                   android:textColor="#ffffff"/>
+      </TableRow>
+   </TableLayout>       
+</LinearLayout>

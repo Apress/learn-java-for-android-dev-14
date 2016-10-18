@@ -1,0 +1,1 @@
+java -cp xmlpull-xpp3-1.1.4c.jar;. XMLPPDemo article.xml

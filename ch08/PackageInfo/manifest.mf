@@ -1,0 +1,7 @@
+Implementation-Title: Logging Implementation
+Implementation-Vendor: Jeff Friesen (IV)
+Implementation-Version: 1.0a
+Specification-Title: Logging Specification
+Specification-Vendor: Jeff Friesen (SV)
+Specification-Version: 1.0
+Sealed: true
